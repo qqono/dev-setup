@@ -171,3 +171,11 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+
+# install brewfile
+# Set the path to your Brewfile
+brewfile_path="path/to/your/Brewfile"
+
+# Call brew bundle with the specified Brewfile
+brew bundle --file="$brewfile_path"
